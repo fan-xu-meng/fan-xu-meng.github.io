@@ -1,19 +1,23 @@
-# Fanxu Meng | Academic Homepage
+# Fanxu Meng — Academic Homepage
 
-Personal academic website: https://fan-xu-meng.github.io/
+Live site: **https://fan-xu-meng.github.io/**
 
-This is an independently written static website for GitHub Pages, using HTML, CSS and JavaScript without a build step.
+The site consists of five separate GitHub Pages URLs (not in-page anchors):
 
-## Editing
+| Page | URL | File |
+| --- | --- | --- |
+| Home | https://fan-xu-meng.github.io/ | `index.html` |
+| About | https://fan-xu-meng.github.io/about/ | `about/index.html` |
+| Research | https://fan-xu-meng.github.io/research/ | `research/index.html` |
+| Publications | https://fan-xu-meng.github.io/publications/ | `publications/index.html` |
+| Contact | https://fan-xu-meng.github.io/contact/ | `contact/index.html` |
 
-Edit `data.js` to update name, affiliation, bio, research, publications and external links. Publication entries are initially empty and will be added only after verifying the actual bibliographic details.
+All pages share `assets/site.css`. The Publications page has its own `assets/publications.js` for search, year, and selected-work filtering. The bibliography is stored in `publications/index.html`, with DOIs and links preserved.
 
-## Publishing
+Edit the corresponding HTML file when you want to update that page. Updating `assets/site.css` will affect all five pages.
 
-GitHub repository → Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/(root)` → Save.
+The Home page redirects old bookmark links such as `/#publications` to the new page `/publications/`.
 
-After GitHub Pages has deployed, add `https://fan-xu-meng.github.io/` to the **Homepage** field of your Google Scholar author profile.
+Deployment: **Settings → Pages → Deploy from a branch → main → /(root)**. No build process is required.
 
-Details in [README-中文.md](README-%E4%B8%AD%E6%96%87.md).
-
-> Research summary and affiliations are provisional; please review before linking this page from academic profiles.
+Note: Some biographical/research descriptions remain provisional and should be checked before public use.

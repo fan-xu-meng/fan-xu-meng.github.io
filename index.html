@@ -1,187 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Fanxu Meng | Academic research and publications">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f8f9fb">
+<meta name="description" content="Fanxu Meng — academic homepage, research interests, and scientific publications.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fanxu Meng | Academic Homepage">
+<meta property="og:description" content="Fanxu Meng — academic homepage, research interests, and scientific publications.">
+<meta property="og:url" content="https://fan-xu-meng.github.io/">
 <link rel="canonical" href="https://fan-xu-meng.github.io/">
-<title>Fanxu Meng · Academic Homepage</title>
-<style>
-:root{--ink:#172232;--muted:#607185;--accent:#235e8a;--line:#e5eaf0;--paper:#fff;--wash:#f6f8fa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper)}a{color:var(--accent)}a:hover{text-decoration:underline}.container{max-width:1100px;padding:0 30px;margin:auto}.top{position:sticky;top:0;z-index:2;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}.top-inner{height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-size:21px;font-weight:750;letter-spacing:-.6px;text-decoration:none;color:var(--ink)}nav{display:flex;gap:28px}nav a{color:var(--muted);font-size:14px;font-weight:600;text-decoration:none}.hero{display:grid;grid-template-columns:1.5fr .8fr;gap:60px;align-items:center;padding-top:110px;padding-bottom:110px}.eyebrow,.kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--accent)}h1{font-size:clamp(48px,6vw,78px);letter-spacing:-.06em;line-height:1.1;margin:16px 0 18px}h2{font-size:clamp(30px,3.6vw,44px);letter-spacing:-.05em;margin:12px 0 28px;line-height:1.18}h3{font-size:20px;letter-spacing:-.025em}.lead{font-size:23px;color:#45566a;font-weight:600;margin:0}.sublead{font-size:17px;max-width:650px;color:var(--muted)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0 22px}.btn{display:inline-block;border:1px solid var(--accent);border-radius:8px;padding:10px 18px;text-decoration:none;font-weight:650;font-size:14px;background:var(--accent);color:white}.btn.secondary{color:var(--accent);background:transparent}.social{display:flex;flex-wrap:wrap;gap:22px;font-size:14px}.portrait{position:relative;max-width:330px;width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden;background:#e9eef4;border:9px solid #f5f7fa;box-shadow:0 20px 70px #153b5b16;margin:0 auto}.portrait img{width:100%;height:100%;object-fit:cover}.section{border-top:1px solid var(--line);padding:84px 0}.section.wash{background:var(--wash)}.section-head{max-width:730px}.body-copy{color:#536274;max-width:790px;font-size:17px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.chip{border:1px solid #dfe7ef;border-radius:50px;background:#fff;padding:5px 13px;font-size:13px;color:#536478}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:38px}.card{border:1px solid #e2e8ee;border-radius:13px;padding:25px;background:#fff}.card .num{font-size:13px;font-weight:800;color:#6390af}.card h3{line-height:1.25;margin:35px 0 12px}.card p{color:var(--muted);font-size:14px;margin:0}.paper-empty{margin-top:26px;padding:28px;border:1px dashed #c9d6e1;background:#fff;border-radius:12px;color:#64748b}.contact{background:#152334;color:white;padding:80px 0}.contact .kicker{color:#95c6e5}.contact h2{color:white}.contact p{color:#b4c4d5}.contact a{color:#b6e0fc}.contact .btn{background:white;color:#15334b;border-color:white}.footer{background:#101c29;color:#9aafc3;font-size:13px;padding:22px 0}.footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.footer a{color:#bcd4e7}@media(max-width:760px){.container{padding:0 22px}.top-inner{height:auto;min-height:66px;align-items:flex-start;padding-top:15px;padding-bottom:12px;flex-direction:column}nav{gap:18px;flex-wrap:wrap}.hero{grid-template-columns:1fr;gap:24px;padding-top:58px;padding-bottom:65px}.portrait{max-width:215px;grid-row:1;margin:0}.section{padding:60px 0}.cards{grid-template-columns:1fr}.card h3{margin-top:14px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-
-/* Publications: verified, accessible, searchable static bibliography */
-.pub-intro{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap}
-.pub-intro h2{margin-bottom:15px}.pub-intro .body-copy{font-size:15px;margin:0}
-.pub-external{display:inline-flex;white-space:nowrap;text-decoration:none;font-size:14px;font-weight:750;align-items:center;gap:7px;padding:10px 16px;background:#edf4f9;border-radius:8px}
-.pub-toolbar{display:flex;align-items:center;gap:12px;margin:29px 0 10px;flex-wrap:wrap}
-.pub-toolbar input,.pub-toolbar select{font:inherit;font-size:14px;border:1px solid #d5e0e8;background:#fff;border-radius:8px;padding:12px 14px;color:var(--ink);min-height:45px}
-.pub-toolbar input{min-width:230px;flex:1;max-width:550px}
-.pub-toolbar select{min-width:140px}
-.pub-toolbar button{font:inherit;font-size:14px;min-height:45px;border:1px solid #d5e0e8;border-radius:8px;padding:9px 15px;background:white;color:var(--ink);cursor:pointer}
-.pub-toolbar button[aria-pressed="true"]{color:#fff;background:#235e8a;border-color:#235e8a}
-.pub-count{font-size:13px;color:#697c8b;margin:12px 0 0}
-.publication-year{margin-top:36px}.pub-year-heading{font-size:24px;letter-spacing:-.04em;margin:0 0 12px;display:flex;align-items:baseline;gap:13px}.pub-year-heading span{font-size:12px;color:#8392a1;letter-spacing:0;font-weight:500}
-.pub-entries{display:grid;gap:14px}.pub-entry{border:1px solid #e0e7ed;border-radius:13px;padding:25px 28px;background:#fff;transition:box-shadow .2s,border-color .2s}
-.pub-entry:hover{border-color:#bdd0df;box-shadow:0 8px 25px #284a650c}
-.pub-entry.pub-featured{border-left:4px solid #367aa5;padding-left:25px;background:linear-gradient(102deg,#f6fafd,#fff 23%)}
-.pub-meta{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;font-size:12px;color:#708093}
-.pub-journal{font-weight:800;color:#306c95}
-.pub-role{color:#517489}.pub-feature-tag{color:#265778;background:#e5f0f8;border-radius:5px;padding:2px 7px;font-weight:750}
-.pub-title{font-size:18px;line-height:1.45;letter-spacing:-.012em;margin:11px 0 8px}
-.pub-title a{text-decoration:none;color:#172c43}.pub-title a:hover{color:#225d88;text-decoration:underline}
-.pub-authors{font-size:13px;color:#64788a;line-height:1.65;margin:0 0 5px}
-.pub-author-self{font-weight:800;color:#1c4f76}
-.pub-citation{font-size:13px;font-style:italic;color:#778693;margin:0}
-.pub-summary{font-size:14px;color:#526579;margin:12px 0 0;line-height:1.6}
-.pub-links{display:flex;gap:15px 25px;flex-wrap:wrap;margin-top:13px}
-.pub-links a{text-decoration:none;font-size:12px;font-weight:650}.pub-links a:hover{text-decoration:underline}
-.pub-empty{display:none;background:#f4f7fa;border-radius:10px;padding:25px;color:#68798c;margin-top:20px}
-.pub-disclaimer{font-size:12px;color:#778798;margin:32px 0 0;max-width:870px}
-@media(max-width:760px){.pub-toolbar{align-items:stretch}.pub-toolbar input{min-width:100%;max-width:none}.pub-toolbar select,.pub-toolbar button{flex:1}.pub-entry{padding:20px}.pub-entry.pub-featured{padding-left:17px}.pub-title{font-size:17px}.pub-external{white-space:normal}}
-
-.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-[hidden]{display:none!important}
-</style>
+<link rel="stylesheet" href="/assets/site.css">
+<title>Fanxu Meng | Academic Homepage</title>
 </head>
-<body>
-<header class="top"><div class="container top-inner"><a class="brand" href="#home">Fanxu Meng<span style="color:#3984ac">.</span></a><nav aria-label="Main menu"><a href="#home">Home</a><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav></div></header>
-<main><section class="container hero" id="home"><div><div class="eyebrow">Academic Personal Homepage</div><h1>Fanxu Meng<span style="color:#3984ac">.</span></h1><p class="lead">Materials Science · Electrochemistry · AI for Science</p><p class="sublead">Exploring scientific discovery at the interface of inorganic materials, electrochemical processes, and artificial intelligence.</p><div class="actions"><a class="btn" href="#research">Explore research ↗</a><a class="btn secondary" href="#contact">Get in touch →</a></div><div class="social"><a href="https://github.com/fan-xu-meng" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://scholar.google.com/citations?user=YPi3fxkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div></div><div class="portrait"><img src="https://avatars.githubusercontent.com/u/256076785?v=4" alt="Profile photo of Fanxu Meng" onerror="this.src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'"></div></section>
-<section class="section" id="about"><div class="container"><div class="kicker">01 / About</div><h2>About me.</h2><div class="body-copy"><p>Welcome to my academic homepage. This site is currently being prepared. I am building a space to share research interests, publications, and ongoing scientific work.</p><p>Institutional affiliation, biography, and verified publication details will be added soon.</p></div><div class="chips"><span class="chip">Inorganic Materials</span><span class="chip">Electrocatalysis</span><span class="chip">Artificial Intelligence</span><span class="chip">Scientific Computing</span></div></div></section>
-<section class="section wash" id="research"><div class="container"><div class="kicker">02 / Research</div><h2>Research interests.</h2><p class="body-copy">Research topics for the homepage. Descriptions below are provisional and can be updated with your specific projects.</p><div class="cards"><article class="card"><div class="num">01 — AI FOR SCIENCE</div><h3>AI-driven scientific discovery</h3><p>Computational workflows, scientific reasoning, and data-informed materials research.</p></article><article class="card"><div class="num">02 — ELECTROCHEMISTRY</div><h3>Electrochemical processes</h3><p>Mechanistic understanding of electrocatalytic transformations and reaction pathways.</p></article><article class="card"><div class="num">03 — MATERIALS SCIENCE</div><h3>Inorganic materials</h3><p>Polymorphism, metastability, and connections between crystal structure and properties.</p></article></div></div></section>
-<section class="section" id="publications"><div class="container">
-<div class="pub-intro"><div class="section-head"><div class="kicker">03 / Publications</div><h2>Publications.</h2><p class="body-copy">Peer-reviewed journal articles, with verified bibliographic details and links to the publishers. My name is highlighted in the author lists.</p></div><a class="pub-external" href="https://scholar.google.com/citations?user=YPi3fxkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Full list on Google Scholar ↗</a></div>
-<div class="pub-toolbar"><label for="pub-search" class="visually-hidden">Search publications</label><input id="pub-search" type="search" placeholder="Search title, author, journal or DOI…" aria-label="Search publications"><label class="visually-hidden" for="pub-year-filter">Filter by publication year</label><select id="pub-year-filter"><option value="all">All years</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option></select><button type="button" id="pub-selected-filter" aria-pressed="false">Selected publications</button></div>
-<p id="pub-count" class="pub-count" aria-live="polite">15 publications · 4 selected</p>
-<div id="pub-list"><div class="publication-year" data-publication-year="2026"><h3 class="pub-year-heading">2026<span>4 papers</span></h3><div class="pub-entries"><article class="pub-entry pub-featured" data-pub-year="2026" data-pub-selected="true" data-pub-search="oxygen migration pathways in the methanol oxidation reaction nature catalysis fanxu meng, zihan shen, daniel j. zheng, pengfei song, xinlong lin, shibo xi, chao wu, yang shao-horn, zhichuan j. xu 2026 10.1038/s41929-026-01595-8">
-<div class="pub-meta"><span class="pub-journal">Nature Catalysis</span><span>2026</span><span class="pub-role">Co-first author</span><span class="pub-feature-tag">Selected</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1038/s41929-026-01595-8" target="_blank" rel="noopener noreferrer">Oxygen migration pathways in the methanol oxidation reaction</a></h4>
-<p class="pub-authors"><strong class="pub-author-self">Fanxu Meng</strong>, Zihan Shen, Daniel J. Zheng, Pengfei Song, Xinlong Lin, Shibo Xi, Chao Wu, Yang Shao-Horn, Zhichuan J. Xu</p>
-<p class="pub-citation">Nature Catalysis 9, 901–911 (2026)</p>
-<p class="pub-summary">Tracing catalyst oxygen migration and replenishment during electrochemical methanol oxidation.</p>
-<div class="pub-links"><a href="https://doi.org/10.1038/s41929-026-01595-8" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1038/s41929-026-01595-8" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41929-026-01595-8</a></div>
-</article><article class="pub-entry" data-pub-year="2026" data-pub-selected="false" data-pub-search="ammonia splitting with electrode alternating for durable hydrogen production nature catalysis tianze wu, chencheng dai, yuwei zhang, yuan liu, qian wu, kamal elouarzaki, fanxu meng, xinlong lin, mudi wu, adrian c. fisher, zhichuan j. xu 2026 10.1038/s41929-026-01554-3">
-<div class="pub-meta"><span class="pub-journal">Nature Catalysis</span><span>2026</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1038/s41929-026-01554-3" target="_blank" rel="noopener noreferrer">Ammonia splitting with electrode alternating for durable hydrogen production</a></h4>
-<p class="pub-authors">Tianze Wu, Chencheng Dai, Yuwei Zhang, Yuan Liu, Qian Wu, Kamal Elouarzaki, <strong class="pub-author-self">Fanxu Meng</strong>, Xinlong Lin, Mudi Wu, Adrian C. Fisher, Zhichuan J. Xu</p>
-<p class="pub-citation">Nature Catalysis 9, 655–665 (2026)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1038/s41929-026-01554-3" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1038/s41929-026-01554-3" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41929-026-01554-3</a></div>
-</article><article class="pub-entry" data-pub-year="2026" data-pub-selected="false" data-pub-search="adsorption energy difference dictates selective ethanol electrooxidation dalton transactions xinlong lin, zihan shen, fanxu meng, kai tang, pengfei song, justin zhu yeow seow, zhichuan j. xu 2026 10.1039/d6dt01703g">
-<div class="pub-meta"><span class="pub-journal">Dalton Transactions</span><span>2026</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1039/d6dt01703g" target="_blank" rel="noopener noreferrer">Adsorption energy difference dictates selective ethanol electrooxidation</a></h4>
-<p class="pub-authors">Xinlong Lin, Zihan Shen, <strong class="pub-author-self">Fanxu Meng</strong>, Kai Tang, Pengfei Song, Justin Zhu Yeow Seow, Zhichuan J. Xu</p>
-<p class="pub-citation">Dalton Transactions 55, 12890–12897 (2026)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1039/d6dt01703g" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1039/d6dt01703g" target="_blank" rel="noopener noreferrer">DOI: 10.1039/d6dt01703g</a></div>
-</article><article class="pub-entry" data-pub-year="2026" data-pub-selected="false" data-pub-search="bimetallic phase transition induced asymmetric spin-state modulation for controllable radical–nonradical pathways advanced functional materials yanhua peng, yaxin cheng, jingdan shi, qiming zhang, et al. (including fanxu meng) 2026 10.1002/adfm.202522458">
-<div class="pub-meta"><span class="pub-journal">Advanced Functional Materials</span><span>2026</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1002/adfm.202522458" target="_blank" rel="noopener noreferrer">Bimetallic Phase Transition Induced Asymmetric Spin-State Modulation for Controllable Radical–Nonradical Pathways</a></h4>
-<p class="pub-authors">Yanhua Peng, Yaxin Cheng, Jingdan Shi, Qiming Zhang, et al. (including <strong class="pub-author-self">Fanxu Meng</strong>)</p>
-<p class="pub-citation">Advanced Functional Materials 36, e202522458 (2026)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1002/adfm.202522458" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1002/adfm.202522458" target="_blank" rel="noopener noreferrer">DOI: 10.1002/adfm.202522458</a></div>
-</article></div></div><div class="publication-year" data-publication-year="2025"><h3 class="pub-year-heading">2025<span>5 papers</span></h3><div class="pub-entries"><article class="pub-entry pub-featured" data-pub-year="2025" data-pub-selected="true" data-pub-search="industrially viable formate production with 50% lower co₂ emissions energy &amp; environmental science fanxu meng, zihan shen, xinlong lin, pengfei song, tianze wu, shibo xi, chao wu, zhenhui ma, daniel mandler, zhichuan j. xu 2025 10.1039/d5ee00452g">
-<div class="pub-meta"><span class="pub-journal">Energy &amp; Environmental Science</span><span>2025</span><span class="pub-role">First author</span><span class="pub-feature-tag">Selected</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1039/D5EE00452G" target="_blank" rel="noopener noreferrer">Industrially viable formate production with 50% lower CO₂ emissions</a></h4>
-<p class="pub-authors"><strong class="pub-author-self">Fanxu Meng</strong>, Zihan Shen, Xinlong Lin, Pengfei Song, Tianze Wu, Shibo Xi, Chao Wu, Zhenhui Ma, Daniel Mandler, Zhichuan J. Xu</p>
-<p class="pub-citation">Energy &amp; Environmental Science 18, 3680–3688 (2025)</p>
-<p class="pub-summary">Low-overpotential methanol-to-formate electrorefining assessed for practical environmental and economic performance.</p>
-<div class="pub-links"><a href="https://doi.org/10.1039/D5EE00452G" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1039/D5EE00452G" target="_blank" rel="noopener noreferrer">DOI: 10.1039/D5EE00452G</a></div>
-</article><article class="pub-entry" data-pub-year="2025" data-pub-selected="false" data-pub-search="non-linear spin correlation of intermediates in enhanced electrochemical nitrate reduction under magnetic fields energy &amp; environmental science dongsheng shao, qian wu, yuwei zhang, xiyang cai, chencheng dai, siyuan zhu, fanxu meng, et al. 2025 10.1039/d5ee02132d">
-<div class="pub-meta"><span class="pub-journal">Energy &amp; Environmental Science</span><span>2025</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1039/D5EE02132D" target="_blank" rel="noopener noreferrer">Non-linear spin correlation of intermediates in enhanced electrochemical nitrate reduction under magnetic fields</a></h4>
-<p class="pub-authors">Dongsheng Shao, Qian Wu, Yuwei Zhang, Xiyang Cai, Chencheng Dai, Siyuan Zhu, <strong class="pub-author-self">Fanxu Meng</strong>, et al.</p>
-<p class="pub-citation">Energy &amp; Environmental Science 18, 7708–7719 (2025)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1039/D5EE02132D" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1039/D5EE02132D" target="_blank" rel="noopener noreferrer">DOI: 10.1039/D5EE02132D</a></div>
-</article><article class="pub-entry" data-pub-year="2025" data-pub-selected="false" data-pub-search="remote iron dynamics of nife (oxy)hydroxides toward robust active sites in water oxidation nature communications jianxiong zhao, yuwei zhang, yike ye, qiucheng xu, songzhu luo, fanxu meng, et al. 2025 10.1038/s41467-025-60728-y">
-<div class="pub-meta"><span class="pub-journal">Nature Communications</span><span>2025</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1038/s41467-025-60728-y" target="_blank" rel="noopener noreferrer">Remote Iron dynamics of NiFe (oxy)hydroxides toward robust active sites in water oxidation</a></h4>
-<p class="pub-authors">Jianxiong Zhao, Yuwei Zhang, Yike Ye, Qiucheng Xu, Songzhu Luo, <strong class="pub-author-self">Fanxu Meng</strong>, et al.</p>
-<p class="pub-citation">Nature Communications 16, 5601 (2025)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1038/s41467-025-60728-y" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1038/s41467-025-60728-y" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41467-025-60728-y</a></div>
-</article><article class="pub-entry" data-pub-year="2025" data-pub-selected="false" data-pub-search="support-free iridium hydroxide for high-efficiency proton-exchange membrane water electrolysis nature communications yubo chen, chencheng dai, qian wu, haiyan li, shibo xi, justin zhu yeow seow, songzhu luo, fanxu meng, et al. 2025 10.1038/s41467-025-58019-7">
-<div class="pub-meta"><span class="pub-journal">Nature Communications</span><span>2025</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1038/s41467-025-58019-7" target="_blank" rel="noopener noreferrer">Support-free iridium hydroxide for high-efficiency proton-exchange membrane water electrolysis</a></h4>
-<p class="pub-authors">Yubo Chen, Chencheng Dai, Qian Wu, Haiyan Li, Shibo Xi, Justin Zhu Yeow Seow, Songzhu Luo, <strong class="pub-author-self">Fanxu Meng</strong>, et al.</p>
-<p class="pub-citation">Nature Communications 16, 2730 (2025)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1038/s41467-025-58019-7" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1038/s41467-025-58019-7" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41467-025-58019-7</a></div>
-</article><article class="pub-entry" data-pub-year="2025" data-pub-selected="false" data-pub-search="electrochemical cracking for releasing hydrogen from methanol artificial photosynthesis xinlong lin, fanxu meng, zhichuan j. xu 2025 10.1021/aps.4c00019">
-<div class="pub-meta"><span class="pub-journal">Artificial Photosynthesis</span><span>2025</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1021/aps.4c00019" target="_blank" rel="noopener noreferrer">Electrochemical cracking for releasing hydrogen from methanol</a></h4>
-<p class="pub-authors">Xinlong Lin, <strong class="pub-author-self">Fanxu Meng</strong>, Zhichuan J. Xu</p>
-<p class="pub-citation">Artificial Photosynthesis 1, 4–13 (2025)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1021/aps.4c00019" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1021/aps.4c00019" target="_blank" rel="noopener noreferrer">DOI: 10.1021/aps.4c00019</a></div>
-</article></div></div><div class="publication-year" data-publication-year="2024"><h3 class="pub-year-heading">2024<span>2 papers</span></h3><div class="pub-entries"><article class="pub-entry" data-pub-year="2024" data-pub-selected="false" data-pub-search="tailoring atomic chemistry to refine reaction pathway for the most enhancement by magnetization in water oxidation proceedings of the national academy of sciences (pnas) tianze wu, jingjie ge, qian wu, xiao ren, fanxu meng, jiarui wang, et al. 2024 10.1073/pnas.2318652121">
-<div class="pub-meta"><span class="pub-journal">Proceedings of the National Academy of Sciences (PNAS)</span><span>2024</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1073/pnas.2318652121" target="_blank" rel="noopener noreferrer">Tailoring atomic chemistry to refine reaction pathway for the most enhancement by magnetization in water oxidation</a></h4>
-<p class="pub-authors">Tianze Wu, Jingjie Ge, Qian Wu, Xiao Ren, <strong class="pub-author-self">Fanxu Meng</strong>, Jiarui Wang, et al.</p>
-<p class="pub-citation">Proceedings of the National Academy of Sciences (PNAS) 121, e2318652121 (2024)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1073/pnas.2318652121" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1073/pnas.2318652121" target="_blank" rel="noopener noreferrer">DOI: 10.1073/pnas.2318652121</a></div>
-</article><article class="pub-entry" data-pub-year="2024" data-pub-selected="false" data-pub-search="potential and electric double-layer effect in electrocatalytic urea synthesis nature communications qian wu, chencheng dai, fanxu meng, yan jiao, zhichuan j. xu 2024 10.1038/s41467-024-45522-6">
-<div class="pub-meta"><span class="pub-journal">Nature Communications</span><span>2024</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1038/s41467-024-45522-6" target="_blank" rel="noopener noreferrer">Potential and electric double-layer effect in electrocatalytic urea synthesis</a></h4>
-<p class="pub-authors">Qian Wu, Chencheng Dai, <strong class="pub-author-self">Fanxu Meng</strong>, Yan Jiao, Zhichuan J. Xu</p>
-<p class="pub-citation">Nature Communications 15, 1095 (2024)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1038/s41467-024-45522-6" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1038/s41467-024-45522-6" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41467-024-45522-6</a></div>
-</article></div></div><div class="publication-year" data-publication-year="2023"><h3 class="pub-year-heading">2023<span>1 paper</span></h3><div class="pub-entries"><article class="pub-entry pub-featured" data-pub-year="2023" data-pub-selected="true" data-pub-search="essential role of lattice oxygen in methanol electrochemical refinery toward formate science advances fanxu meng, qian wu, kamal elouarzaki, songzhu luo, yuanmiao sun, chencheng dai, shibo xi, yubo chen, xinlong lin, mingliang fang, xin wang, daniel mandler, zhichuan j. xu 2023 10.1126/sciadv.adh9487">
-<div class="pub-meta"><span class="pub-journal">Science Advances</span><span>2023</span><span class="pub-role">First author</span><span class="pub-feature-tag">Selected</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1126/sciadv.adh9487" target="_blank" rel="noopener noreferrer">Essential role of lattice oxygen in methanol electrochemical refinery toward formate</a></h4>
-<p class="pub-authors"><strong class="pub-author-self">Fanxu Meng</strong>, Qian Wu, Kamal Elouarzaki, Songzhu Luo, Yuanmiao Sun, Chencheng Dai, Shibo Xi, Yubo Chen, Xinlong Lin, Mingliang Fang, Xin Wang, Daniel Mandler, Zhichuan J. Xu</p>
-<p class="pub-citation">Science Advances 9, eadh9487 (2023)</p>
-<p class="pub-summary">Oxygen-isotope experiments identify a critical role of catalyst lattice oxygen in producing formate.</p>
-<div class="pub-links"><a href="https://doi.org/10.1126/sciadv.adh9487" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1126/sciadv.adh9487" target="_blank" rel="noopener noreferrer">DOI: 10.1126/sciadv.adh9487</a></div>
-</article></div></div><div class="publication-year" data-publication-year="2022"><h3 class="pub-year-heading">2022<span>2 papers</span></h3><div class="pub-entries"><article class="pub-entry pub-featured" data-pub-year="2022" data-pub-selected="true" data-pub-search="methanol electro-oxidation to formate on iron-substituted lanthanum cobaltite perovskite oxides escience fanxu meng, chencheng dai, zheng liu, songzhu luo, jingjie ge, yan duan, gao chen, chao wei, riccardo ruixi chen, jiarui wang, daniel mandler, zhichuan j. xu 2022 10.1016/j.esci.2022.02.001">
-<div class="pub-meta"><span class="pub-journal">eScience</span><span>2022</span><span class="pub-role">First author</span><span class="pub-feature-tag">Selected</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1016/j.esci.2022.02.001" target="_blank" rel="noopener noreferrer">Methanol electro-oxidation to formate on iron-substituted lanthanum cobaltite perovskite oxides</a></h4>
-<p class="pub-authors"><strong class="pub-author-self">Fanxu Meng</strong>, Chencheng Dai, Zheng Liu, Songzhu Luo, Jingjie Ge, Yan Duan, Gao Chen, Chao Wei, Riccardo Ruixi Chen, Jiarui Wang, Daniel Mandler, Zhichuan J. Xu</p>
-<p class="pub-citation">eScience 2, 87–94 (2022)</p>
-<p class="pub-summary">Iron-substituted perovskite electrocatalysts for upgrading methanol into formate.</p>
-<div class="pub-links"><a href="https://doi.org/10.1016/j.esci.2022.02.001" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1016/j.esci.2022.02.001" target="_blank" rel="noopener noreferrer">DOI: 10.1016/j.esci.2022.02.001</a></div>
-</article><article class="pub-entry" data-pub-year="2022" data-pub-selected="false" data-pub-search="electro-oxidation of glycerol to high-value-added c1–c3 products by iron-substituted spinel zinc cobalt oxides acs applied materials &amp; interfaces haibo wan, chencheng dai, liujun jin, songzhu luo, fanxu meng, gao chen, yan duan, chuntai liu, qingfeng xu, jianmei lu, zhichuan j. xu 2022 10.1021/acsami.2c02215">
-<div class="pub-meta"><span class="pub-journal">ACS Applied Materials &amp; Interfaces</span><span>2022</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1021/acsami.2c02215" target="_blank" rel="noopener noreferrer">Electro-Oxidation of Glycerol to High-Value-Added C1–C3 Products by Iron-Substituted Spinel Zinc Cobalt Oxides</a></h4>
-<p class="pub-authors">Haibo Wan, Chencheng Dai, Liujun Jin, Songzhu Luo, <strong class="pub-author-self">Fanxu Meng</strong>, Gao Chen, Yan Duan, Chuntai Liu, Qingfeng Xu, Jianmei Lu, Zhichuan J. Xu</p>
-<p class="pub-citation">ACS Applied Materials &amp; Interfaces 14, 14293–14301 (2022)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1021/acsami.2c02215" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1021/acsami.2c02215" target="_blank" rel="noopener noreferrer">DOI: 10.1021/acsami.2c02215</a></div>
-</article></div></div><div class="publication-year" data-publication-year="2021"><h3 class="pub-year-heading">2021<span>1 paper</span></h3><div class="pub-entries"><article class="pub-entry" data-pub-year="2021" data-pub-selected="false" data-pub-search="anodic oxidation enabled cation leaching for promoting surface reconstruction in water oxidation angewandte chemie international edition yan duan, jun yan lee, shibo xi, yuanmiao sun, jingjie ge, samuel jun hoong ong, yubo chen, shuo dou, fanxu meng, et al. 2021 10.1002/anie.202015060">
-<div class="pub-meta"><span class="pub-journal">Angewandte Chemie International Edition</span><span>2021</span></div>
-<h4 class="pub-title"><a href="https://doi.org/10.1002/anie.202015060" target="_blank" rel="noopener noreferrer">Anodic Oxidation Enabled Cation Leaching for Promoting Surface Reconstruction in Water Oxidation</a></h4>
-<p class="pub-authors">Yan Duan, Jun Yan Lee, Shibo Xi, Yuanmiao Sun, Jingjie Ge, Samuel Jun Hoong Ong, Yubo Chen, Shuo Dou, <strong class="pub-author-self">Fanxu Meng</strong>, et al.</p>
-<p class="pub-citation">Angewandte Chemie International Edition 60, 7418–7425 (2021)</p>
-
-<div class="pub-links"><a href="https://doi.org/10.1002/anie.202015060" target="_blank" rel="noopener noreferrer">View paper ↗</a><a href="https://doi.org/10.1002/anie.202015060" target="_blank" rel="noopener noreferrer">DOI: 10.1002/anie.202015060</a></div>
-</article></div></div></div>
-<div class="pub-empty" id="pub-no-results">No publications match your filters. Try another keyword or year.</div>
-<p class="pub-disclaimer">Publication metadata curated from the author's ORCID record, the NTU Electrochemical Materials Lab and publisher records (October 2026). A preprint and its final journal article are counted once; corrections are omitted. For updates beyond this curated list, see <a href="https://scholar.google.com/citations?user=YPi3fxkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> or <a href="https://orcid.org/0000-0002-8201-0610" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
-</div>
-<script>
-(function(){
-const input=document.getElementById("pub-search"),year=document.getElementById("pub-year-filter"),selected=document.getElementById("pub-selected-filter"),count=document.getElementById("pub-count"),none=document.getElementById("pub-no-results");
-const entries=Array.from(document.querySelectorAll(".pub-entry"));
-const groups=Array.from(document.querySelectorAll(".publication-year"));
-function refresh(){
-const q=input.value.trim().toLowerCase(),y=year.value,only=selected.getAttribute("aria-pressed")==="true";
-let visible=0;
-for(const item of entries){
-const show=(!q||item.dataset.pubSearch.includes(q))&&(y==="all"||item.dataset.pubYear===y)&&(!only||item.dataset.pubSelected==="true");
-item.hidden=!show;if(show)visible++;
-}
-for(const group of groups){group.hidden=!Array.from(group.querySelectorAll(".pub-entry")).some(item=>!item.hidden);}
-count.textContent=visible+" of "+entries.length+" publications shown";none.style.display=visible?"none":"block";
-}
-input.addEventListener("input",refresh);
-year.addEventListener("change",refresh);
-selected.addEventListener("click",()=>{selected.setAttribute("aria-pressed",selected.getAttribute("aria-pressed")==="true"?"false":"true");refresh();});
-})();
-</script>
-</section>
-<section class="contact" id="contact"><div class="container"><div class="kicker">04 / Contact</div><h2>Let's connect.</h2><p>Interested in scientific discussions and collaborations? Find me through the profiles below. A contact email can be added when confirmed.</p><div class="actions"><a class="btn" href="https://github.com/fan-xu-meng" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a><a class="btn" href="https://scholar.google.com/citations?user=YPi3fxkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div></div></section></main>
-<footer class="footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Fanxu Meng</span><span>Hosted on GitHub Pages · <a href="#home">Back to top ↑</a></span></div></footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script>
-</body></html>
+<body class="page-home page-home">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="top"><div class="container top-inner"><a class="brand" href="/">Fanxu Meng<span style="color:#3984ac">.</span></a><nav aria-label="Main navigation"><a href="/" aria-current="page">Home</a><a href="/about/">About</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/contact/">Contact</a></nav></div></header>
+<main id="main-content" class="site-content">
+<section class="container hero" id="home"><div><div class="eyebrow">Academic Personal Homepage</div><h1>Fanxu Meng<span style="color:#3984ac">.</span></h1><p class="lead">Materials Science · Electrochemistry · AI for Science</p><p class="sublead">Exploring scientific discovery at the interface of inorganic materials, electrochemical processes, and artificial intelligence.</p><div class="actions"><a class="btn" href="/research/">Explore research ↗</a><a class="btn secondary" href="/contact/">Get in touch →</a></div><div class="social"><a href="https://github.com/fan-xu-meng" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://scholar.google.com/citations?user=YPi3fxkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div></div><div class="portrait"><img src="https://avatars.githubusercontent.com/u/256076785?v=4" alt="Profile photo of Fanxu Meng" onerror="this.src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'"></div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Fanxu Meng</span><span>Hosted on GitHub Pages · <a href="/">Back to Home ↑</a></span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+<script>(function(){var old={"#about":"/about/","#research":"/research/","#publications":"/publications/","#contact":"/contact/"};var dest=old[window.location.hash.toLowerCase()];if(dest)window.location.replace(dest+window.location.search);})();</script>
+</body>
+</html>
