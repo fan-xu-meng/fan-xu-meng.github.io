@@ -2,22 +2,22 @@
 
 Live site: **https://fan-xu-meng.github.io/**
 
-The site consists of five separate GitHub Pages URLs (not in-page anchors):
+This GitHub Pages website is a **single-page, scrolling** academic homepage. The sticky navigation uses in-page anchors:
 
-| Page | URL | File |
-| --- | --- | --- |
-| Home | https://fan-xu-meng.github.io/ | `index.html` |
-| About | https://fan-xu-meng.github.io/about/ | `about/index.html` |
-| Research | https://fan-xu-meng.github.io/research/ | `research/index.html` |
-| Publications | https://fan-xu-meng.github.io/publications/ | `publications/index.html` |
-| Contact | https://fan-xu-meng.github.io/contact/ | `contact/index.html` |
+- Home: https://fan-xu-meng.github.io/#home
+- About: https://fan-xu-meng.github.io/#about
+- Research: https://fan-xu-meng.github.io/#research
+- Publications: https://fan-xu-meng.github.io/#publications
+- Contact: https://fan-xu-meng.github.io/#contact
 
-All pages share `assets/site.css`. The Publications page has its own `assets/publications.js` for search, year, and selected-work filtering. The bibliography is stored in `publications/index.html`, with DOIs and links preserved.
+All content, CSS and functionality run from `index.html` with no build step. The four sub-page HTML files are compatibility redirects for previously shared URLs.
 
-Edit the corresponding HTML file when you want to update that page. Updating `assets/site.css` will affect all five pages.
+## Publications
 
-The Home page redirects old bookmark links such as `/#publications` to the new page `/publications/`.
+The Publications section is ordered by contribution:
+1. Five first/co-first-author publications, with the 2020 *Macromolecules* paper pinned first. Its 3-way equal-contribution statement is in the published article (DOI: 10.1021/acs.macromol.0c01425).
+2. Other collaborative journal papers, sorted by year.
 
-Deployment: **Settings → Pages → Deploy from a branch → main → /(root)**. No build process is required.
+Search, year filter (2020–2026) and first/co-first filter are retained. The list contains 16 articles.
 
-Note: Some biographical/research descriptions remain provisional and should be checked before public use.
+To edit, update `index.html` and commit changes to `main`. Deployment is automatic through GitHub Pages (Settings → Pages, Deploy from branch main / root).
