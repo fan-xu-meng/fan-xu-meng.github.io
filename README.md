@@ -15,8 +15,8 @@ All content, CSS and functionality run from `index.html` with no build step. The
 ## Publications
 
 The Publications section is ordered by contribution:
-1. Three **first author** publications, newest to oldest (2025, 2023, 2022).
-2. Two **co-first author** publications, with the 2020 *Macromolecules* paper first within this group, followed by the 2026 *Nature Catalysis* paper. The published *Macromolecules* article documents three-way equal contribution (DOI: 10.1021/acs.macromol.0c01425).
+1. Four **first author** publications, newest to oldest (2026 *Nature Catalysis*, 2025, 2023, 2022).
+2. One **co-first author** publication: the 2020 *Macromolecules* paper. The published paper documents three-way equal contribution (DOI: 10.1021/acs.macromol.0c01425).
 3. Eleven other collaborative journal papers, sorted by year.
 
 Search, year filter (2020–2026) and first/co-first filter are retained. The list contains 16 articles.
