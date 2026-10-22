@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fan-xu-meng.github.io/sitemap.xml
