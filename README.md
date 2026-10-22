@@ -1,23 +1,18 @@
 # Fanxu Meng — Academic Homepage
 
-Official website: https://fan-xu-meng.github.io/
+Website: https://fan-xu-meng.github.io/
 
-A minimal, responsive, single-page academic website built with plain HTML, CSS, and JavaScript. All code for the page lives in `index.html` and requires no build tools or external assets.
+A responsive, editorial-style personal academic website built with HTML, CSS, and JavaScript, and hosted on GitHub Pages.
 
-## Navigation
-- [Home](https://fan-xu-meng.github.io/#home)
-- [About](https://fan-xu-meng.github.io/#about)
-- [Research](https://fan-xu-meng.github.io/#research)
-- [Publications](https://fan-xu-meng.github.io/#publications)
-- [Contact](https://fan-xu-meng.github.io/#contact)
+## Website structure
+- `index.html` — complete single-page content, navigation, publications and JavaScript search/filter
+- `assets/academic.css` — typography, layout, spacing and responsive design
+
+## Sections
+Home / About / Research / Publications / Contact use in-page anchors.
 
 ## Publications
-16 papers arranged by authorship, with bibliographic metadata and DOI links preserved.
-- 4 `first author` papers (2026 Nature Catalysis first)
-- 1 `co-first author` paper (2020 Macromolecules)
-- 11 other collaborative works by descending year
+16 curated papers are grouped by role: 4 first-author papers (2026 Nature Catalysis first), 1 co-first-author paper (2020 Macromolecules) and 11 other collaborative publications. The author role is conveyed by the group heading, not by individual labels. All journal DOI links are preserved. Search, year filtering, and lead-author filtering work without dependencies.
 
-Keyword search, publication year filter, and lead-author toggle are in the inline JavaScript. Images and decorative diagrams have been removed, and publisher links remain available through paper titles and DOI links.
-
-## Maintenance
-Edit `index.html`, commit changes to the `main` branch. GitHub Pages deploys from the repository root. Historical `/about/`, `/publications/`, etc. routes redirect to their respective sections.
+## Updating
+Change publication text or research content in `index.html`. Adjust design in `assets/academic.css`. The website is deployed automatically through GitHub Pages from branch `main` and repository root. Previously shared subpage paths redirect to in-page sections.
