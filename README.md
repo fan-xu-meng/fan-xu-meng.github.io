@@ -1,24 +1,23 @@
 # Fanxu Meng — Academic Homepage
 
-Live site: **https://fan-xu-meng.github.io/**
+Official website: https://fan-xu-meng.github.io/
 
-This GitHub Pages website is a **single-page, scrolling** academic homepage. The sticky navigation uses in-page anchors:
+A minimal, responsive, single-page academic website built with plain HTML, CSS, and JavaScript. All code for the page lives in `index.html` and requires no build tools or external assets.
 
-- Home: https://fan-xu-meng.github.io/#home
-- About: https://fan-xu-meng.github.io/#about
-- Research: https://fan-xu-meng.github.io/#research
-- Publications: https://fan-xu-meng.github.io/#publications
-- Contact: https://fan-xu-meng.github.io/#contact
-
-All content, CSS and functionality run from `index.html` with no build step. The four sub-page HTML files are compatibility redirects for previously shared URLs.
+## Navigation
+- [Home](https://fan-xu-meng.github.io/#home)
+- [About](https://fan-xu-meng.github.io/#about)
+- [Research](https://fan-xu-meng.github.io/#research)
+- [Publications](https://fan-xu-meng.github.io/#publications)
+- [Contact](https://fan-xu-meng.github.io/#contact)
 
 ## Publications
+16 papers arranged by authorship, with bibliographic metadata and DOI links preserved.
+- 4 `first author` papers (2026 Nature Catalysis first)
+- 1 `co-first author` paper (2020 Macromolecules)
+- 11 other collaborative works by descending year
 
-The Publications section is ordered by contribution:
-1. Four **first author** publications, newest to oldest (2026 *Nature Catalysis*, 2025, 2023, 2022).
-2. One **co-first author** publication: the 2020 *Macromolecules* paper. The published paper documents three-way equal contribution (DOI: 10.1021/acs.macromol.0c01425).
-3. Eleven other collaborative journal papers, sorted by year.
+Keyword search, publication year filter, and lead-author toggle are in the inline JavaScript. Images and decorative diagrams have been removed, and publisher links remain available through paper titles and DOI links.
 
-Search, year filter (2020–2026) and first/co-first filter are retained. The list contains 16 articles.
-
-To edit, update `index.html` and commit changes to `main`. Deployment is automatic through GitHub Pages (Settings → Pages, Deploy from branch main / root).
+## Maintenance
+Edit `index.html`, commit changes to the `main` branch. GitHub Pages deploys from the repository root. Historical `/about/`, `/publications/`, etc. routes redirect to their respective sections.
