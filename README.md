@@ -1,18 +1,8 @@
-# Fanxu Meng — Academic Homepage
+# Fanxu Meng | Academic Homepage
+Live at https://fan-xu-meng.github.io/
 
-Website: https://fan-xu-meng.github.io/
-
-A responsive, editorial-style personal academic website built with HTML, CSS, and JavaScript, and hosted on GitHub Pages.
-
-## Website structure
-- `index.html` — complete single-page content, navigation, publications and JavaScript search/filter
-- `assets/academic.css` — typography, layout, spacing and responsive design
-
-## Sections
-Home / About / Research / Publications / Contact use in-page anchors.
-
-## Publications
-16 curated papers are grouped by role: 4 first-author papers (2026 Nature Catalysis first), 1 co-first-author paper (2020 Macromolecules) and 11 other collaborative publications. The author role is conveyed by the group heading, not by individual labels. All journal DOI links are preserved. Search, year filtering, and lead-author filtering work without dependencies.
-
-## Updating
-Change publication text or research content in `index.html`. Adjust design in `assets/academic.css`. The website is deployed automatically through GitHub Pages from branch `main` and repository root. Previously shared subpage paths redirect to in-page sections.
+This site uses an independently authored sidebar layout inspired by the research profile presentation at https://mahpe.github.io/ (no source code copied).
+The public content is sourced from the supplied NTU AI4X 2026 comprehensive CV. The site features a supplied portrait photo, research overview, 17 CV-listed peer-reviewed papers (4 first-author, 1 co-first-author and 12 collaborative), professional experience, education, recognition and teaching.
+Personal phone number, referee contact details and unpublished manuscripts are excluded from the public site.
+Files: index.html; assets/site.css; assets/site.js; assets/portrait.webp.
+Navigation uses in-page anchors; GitHub Pages deploys from the main branch and repository root.
