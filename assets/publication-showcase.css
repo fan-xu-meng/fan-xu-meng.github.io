@@ -1,0 +1,54 @@
+
+/* Publication showcase — intentionally scoped: site identity, navigation and other 11 cards unchanged. */
+.pub-entry.pub-showcase {
+ display:grid; grid-template-columns:132px minmax(0,1fr) minmax(210px,252px);
+ gap:22px; align-items:center; min-height:230px;
+ padding:20px!important; border:1px solid #e0e7ed!important;
+ border-radius:12px; background:#fbfcfe!important; box-shadow:none;
+}
+.pub-entries>.pub-showcase:nth-child(even){background:#edf6fb!important}
+.pub-entry.pub-showcase:hover{border-color:#bdd2df!important;box-shadow:0 8px 24px #20486512}
+.pub-showcase .pub-cover-link{display:block;min-width:0;text-decoration:none}
+.pub-showcase .pub-cover-tile{
+ position:relative; isolation:isolate; display:flex;flex-direction:column;
+ height:198px;width:100%;overflow:hidden;color:#fff;
+ border-radius:4px;padding:10px 9px;
+ background:linear-gradient(155deg,var(--c-dark),var(--c-mid) 65%,var(--c-light));
+ box-shadow:0 3px 12px #143e6019;
+}
+.pub-cover-eyebrow{font-size:7px;letter-spacing:.12em;opacity:.85;font-weight:650}
+.pub-cover-masthead{font-family:Georgia,'Times New Roman',serif;font-weight:700;letter-spacing:-.035em;line-height:1.12;font-size:17px;margin-top:7px;z-index:1;overflow-wrap:break-word}
+.pub-cover-masthead small{display:block;font-size:14px;font-weight:400}
+.pub-cover-art{position:absolute;z-index:-1;inset:27px -28px 0 -25px;width:calc(100% + 53px);height:calc(100% - 10px);opacity:.96}
+.pub-cover-foot{font-size:7px;letter-spacing:.13em;opacity:.94;font-weight:750;margin-top:auto;position:relative;z-index:1}
+.pub-showcase-main{min-width:0}
+.pub-showcase-main .pub-authors{font-size:12.6px;line-height:1.55;margin:0 0 10px;color:#4e6275}
+.pub-showcase-main .pub-title{font-size:18px;line-height:1.32;letter-spacing:-.015em;font-weight:750;margin:0 0 8px}
+.pub-showcase-main .pub-title a{color:#172c43}
+.pub-showcase-main .pub-title a:hover{color:#235e8a}
+.pub-showcase-main .pub-citation{font-size:12.5px;margin:0 0 10px;line-height:1.5}
+.pub-showcase-main .pub-meta{font-size:11px;margin-bottom:5px}
+.pub-showcase-main .pub-feature-tag{border-radius:4px;padding:2px 7px}
+.pub-showcase-main .pub-summary{font-size:12px;color:#61788c;line-height:1.5;margin:6px 0 0}
+.pub-showcase-main .pub-links{gap:9px 16px;margin-top:10px}
+.pub-showcase-main .pub-links a{font-size:11px}
+.pub-showcase-graphic{min-width:0;text-align:center}
+.pub-showcase-illustration{width:100%;border:1px solid #dfeaf0;border-radius:9px;overflow:hidden;background:#f8fcfe;aspect-ratio:440/260}
+.pub-showcase-illustration svg{display:block;width:100%;height:100%}
+.pub-showcase-graphic figcaption{font-size:10px;color:#8094a6;margin-top:5px;line-height:1.35;font-style:italic}
+@media(max-width:980px){
+ .pub-entry.pub-showcase{grid-template-columns:108px minmax(0,1fr);gap:16px;padding:17px!important}
+ .pub-showcase .pub-cover-tile{height:161px}
+ .pub-cover-masthead{font-size:14px}.pub-cover-masthead small{font-size:11.5px}
+ .pub-showcase-graphic{grid-column:2;max-width:420px}
+}
+@media(max-width:640px){
+ .pub-entry.pub-showcase{grid-template-columns:85px minmax(0,1fr);gap:12px;padding:14px!important}
+ .pub-showcase .pub-cover-tile{height:128px;padding:7px 6px}
+ .pub-cover-masthead{font-size:11.5px}.pub-cover-masthead small{font-size:10px}
+ .pub-cover-eyebrow,.pub-cover-foot{font-size:5.5px}
+ .pub-showcase-main .pub-title{font-size:15.5px}
+ .pub-showcase-main .pub-authors{font-size:11.4px}
+ .pub-showcase-main .pub-citation{font-size:11.4px}
+ .pub-showcase-graphic{grid-column:1/-1;width:min(100%,440px);justify-self:center}
+}
