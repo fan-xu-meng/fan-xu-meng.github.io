@@ -493,3 +493,11 @@ footer{font-size:14px}
  .cv-item h4{font-size:16.5px}
 }
 
+
+/* Language switch: visible on desktop and mobile, preserving the existing navigation. */
+.site-name{order:1}
+.top nav{order:2;margin-left:auto}
+.top-inner>.lang-switch{order:3;display:inline-flex;align-items:center;justify-content:center;min-width:52px;min-height:34px;padding:5px 11px;border:1px solid #c5d9df;border-radius:18px;background:#f7fafb;color:#195b70;text-decoration:none;font:650 14px/1.35 var(--ui);white-space:nowrap;transition:background .2s,border-color .2s}
+.top-inner>.lang-switch:hover{background:#e9f3f5;border-color:#88b5c2}
+@media(max-width:700px){.top-inner>.lang-switch{order:2;margin-left:auto;min-height:32px}.top nav{order:3;margin-left:0}}
+@media print{.top-inner>.lang-switch{display:none}}
