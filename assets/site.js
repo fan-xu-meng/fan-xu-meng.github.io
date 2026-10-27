@@ -17,7 +17,7 @@
   };
   const descriptions = {
     en: 'Fanxu Meng, PhD — Research Fellow at BEARS. Mechanistic electrochemistry, evidence-grounded AI and autonomous electrochemical discovery.',
-    zh: 'Fanxu Meng 博士的学术主页，现任 BEARS 研究员，研究方向包括电化学反应机制、基于科学证据的人工智能、AI 引导的电化学发现及实验室自动化。'
+    zh: 'Fanxu Meng 博士的学术主页，现任伯克利新加坡研究院研究员，研究方向包括电化学反应机制、基于科学证据的人工智能、AI 引导的电化学发现及实验室自动化。'
   };
   let language = 'en';
   let queued = false;
